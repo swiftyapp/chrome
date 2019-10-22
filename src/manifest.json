@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Swifty",
+  "description": "Free and Lightweight Password Manager",
+  "version": "0.1.0",
+  "icons": {
+    "128": "icons/icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon.png"
+  },
+  "permissions": ["activeTab"]
+}

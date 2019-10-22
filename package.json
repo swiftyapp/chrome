@@ -1,0 +1,19 @@
+{
+  "name": "swifty-chrome",
+  "version": "0.1.0",
+  "description": "Swifty Password Manager Chrome Extension",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack",
+    "watch": "npx webpack --watch"
+  },
+  "author": "Alex Chaplinsky",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
